@@ -1,51 +1,26 @@
-# Network Packet Sniffer
+# Phishing Awareness Program
 
 ## Description
 This project was developed as part of the CODSOFT Cyber Security Internship.
 
-The application captures live network packets using Python and the Scapy library. It extracts and displays:
-- Source IP Address
-- Destination IP Address
-- Protocol Type (TCP, UDP, ICMP)
-- Packet Summary
-- Packet Payload (if available)
-
-## Technologies Used
-- Python
-- Scapy
-
-## Requirements
-
-Install Scapy using:
-
-```bash
-pip install scapy
-```
-
-## How to Run
-
-Run the following command:
-
-```bash
-python packet_sniffer.py
-```
+It is a web-based phishing awareness program designed to educate users about phishing attacks, fake login pages, fraudulent websites, and social engineering techniques.
 
 ## Features
-- Captures live network packets
-- Displays source and destination IP addresses
-- Detects TCP, UDP, and ICMP protocols
-- Shows packet summaries
-- Displays packet payload (when available)
+- What is Phishing?
+- How to Identify Phishing Emails
+- How to Identify Fake Websites
+- Common Social Engineering Techniques
+- Real-Life Case Study
+- Security Tips
+- Interactive Quiz
 
-## Project Structure
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
 
-```
-Task1_Packet_Sniffer/
-│── packet_sniffer.py
-│── requirements.txt
-│── README.md
-│── code.png
-```
+## How to Run
+Download the project and open `index.html` in any web browser.
 
 ## Author
 **Nivetha K**
